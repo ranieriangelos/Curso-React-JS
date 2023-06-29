@@ -43,8 +43,8 @@ export const Container = styled.li<IContainerProps>`
 export const Tag = styled.div<ITagProps>`
     display: block;
     position: absolute;
-    width: 10px;
+    width: 12px;
     height: 60%;
-    background-color: ${props => props.theme.color.warning};
+    background-color: ${props => props.color};
     left: 0;
 `;

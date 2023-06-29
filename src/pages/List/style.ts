@@ -19,6 +19,7 @@ export const Filters = styled.div`
         color: ${props => props.theme.color.white};
         margin: 0 10px;
         transition: opacity .3s ;
+        opacity: 0.3;
         &:hover{
         transform: translateX(5px);
         opacity: .7;
@@ -38,6 +39,10 @@ export const Filters = styled.div`
             width: 55px;
             margin: 0 auto;
             border-bottom: 10px solid ${props => props.theme.color.succes};
+    }
+
+    .tag-activited{
+        opacity: 1;
     }
 
 `;
